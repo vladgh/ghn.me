@@ -1,4 +1,4 @@
 # ghn.me
-##(UNDER DEVELOPMENT!)
+## (UNDER DEVELOPMENT!)
 
 https://ghn.me
