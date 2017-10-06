@@ -21,10 +21,10 @@ ol, ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 640px;
-  height: 320px;
-  margin-top: -180px;
-  margin-left: -320px;
+  width: 300px;
+  height: 300px;
+  margin-top: -200px;
+  margin-left: -150px;
   font-family: Verdana, Geneva, sans-serif;
 }
 
