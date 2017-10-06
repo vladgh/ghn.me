@@ -13,10 +13,6 @@ a:link, a:visited, a:active, a:hover {
   color: #FFF;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 #centered {
   position: absolute;
   top: 50%;
@@ -34,7 +30,7 @@ ol, ul {
 
 .social-icons li {
   display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 14px 0px 14px;
 }
 
 .icon {
