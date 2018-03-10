@@ -6,14 +6,14 @@ body {
   color: #FFF;
   font-size: 100%;
   font: inherit;
-  text-align: center;
 }
 
 a:link, a:visited, a:active, a:hover {
   color: #FFF;
 }
 
-#centered {
+
+#logo {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,6 +22,11 @@ a:link, a:visited, a:active, a:hover {
   margin-top: -200px;
   margin-left: -150px;
   font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
 }
 
 .social-icons {
