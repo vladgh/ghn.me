@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import url("font-awesome.min.css");
 
 body {
   background-color: #000000;
@@ -43,15 +42,6 @@ a:link, a:visited, a:active, a:hover {
   position: relative;
   font-size: 200%;
   text-align: center;
-}
-
-.icon:before {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: none !important;
 }
 
 .icon > .label {
