@@ -1,0 +1,43 @@
+# Redirect domain aliases to primary domain
+[[redirects]]
+  from = "https://www.ghn.me/*"
+  to = "https://ghn.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://vladgh.com/*"
+  to = "https://ghn.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.vladgh.com/*"
+  to = "https://ghn.me/:splat"
+  status = 301
+  force = true
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://vgh.netlify.com/*"
+  to = "https://ghn.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cv"
+  to = "/cv.pdf"
+  status = 200
+
+[[headers]]
+  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+  [headers.values]
+    X-XSS-Protection = "1; mode=block"
+    # Block site from being framed with X-Frame-Options and CSP
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src https:"
+    # Prevent browsers from incorrectly detecting non-scripts as scripts
+    X-Content-Type-Options= "nosniff"
+    # The browser will send the full URL to requests to the same origin but only
+    # send the origin when requests are cross-origin
+    Referrer-Policy= "strict-origin-when-cross-origin"
