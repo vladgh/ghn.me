@@ -28,6 +28,7 @@
   from = "/cv"
   to = "/cv.pdf"
   status = 200
+  force = true
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
