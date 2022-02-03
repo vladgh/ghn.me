@@ -36,7 +36,7 @@
     X-XSS-Protection = "1; mode=block"
     # Block site from being framed with X-Frame-Options and CSP
     X-Frame-Options = "DENY"
-    Content-Security-Policy = "default-src https: blob: data:; script-src 'sha256-ajGjo5eD0JzFPdnpuutKT6Sb5gLu+Q9ru594rwJogGQ='"
+    Content-Security-Policy = "default-src https: blob: data:; script-src 'none'"
     # Prevent browsers from incorrectly detecting non-scripts as scripts
     X-Content-Type-Options= "nosniff"
     # The browser will send the full URL to requests to the same origin but only
